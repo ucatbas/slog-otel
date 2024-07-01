@@ -15,13 +15,13 @@ import (
 const (
 	// TraceIDKey is the key used by the Otel handler
 	// to inject the trace ID in the log record.
-	TraceIDKey = "trace_id"
+	TraceIDKey = "TraceId"
 	// SpanIDKey is the key used by the Otel handler
 	// to inject the span ID in the log record.
-	SpanIDKey = "span_id"
+	SpanIDKey = "SpanId"
 	// SpanEventKey is the key used by the Otel handler
 	// to inject the log record in the recording span, as a span event.
-	SpanEventKey = "log_record"
+	SpanEventKey = "LogRecord"
 )
 
 // OtelHandler is an implementation of slog's Handler interface.
